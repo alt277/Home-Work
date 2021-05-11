@@ -3,6 +3,7 @@ package ru.gbyte.multy_brackets;
 class CheckBracket {
     private String input;
 
+                                         //  проверка с учетом приоритета скобок
     public CheckBracket(String in) {
 
         input = in;
