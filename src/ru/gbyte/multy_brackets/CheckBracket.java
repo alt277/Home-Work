@@ -2,8 +2,12 @@ package ru.gbyte.multy_brackets;
 
 class CheckBracket {
     private String input;
-
-                                         //  проверка с учетом приоритета скобок
+                                  /* Постарался здесь выполнить усложненную задачу проверки ввода
+                                     разных видов скобок и учета приоритета их ввода.
+                                     Прирритет ввода: 1)   {}
+                                                      2)   ()
+                                                      3)   []
+                                   */
     public CheckBracket(String in) {
 
         input = in;

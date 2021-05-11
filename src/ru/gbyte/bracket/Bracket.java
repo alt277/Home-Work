@@ -27,7 +27,7 @@ public class Bracket {
                         char chr = st.pop ();
 
                     } else {
-                        System.out.println ( "Error: missing left bracket "  );
+                        System.out.println ( "Not OK. Error: missing left bracket "  );
                         flag=false;
                     }
                     break;
@@ -37,7 +37,7 @@ public class Bracket {
         }
 
         if (! st . isEmpty ()){
-            System.out.println("Error: missing right bracket " );
+            System.out.println("Not OK. Error: missing right bracket " );
             flag=false;
         }
         if(flag){
